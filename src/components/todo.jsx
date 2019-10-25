@@ -6,7 +6,7 @@ const Todo = ({ todo }) => (
     className="todo-item"
     onClick={() => {} /** dispatches action to toggle todo */}
   >
-    {todo && todo.completed ? "👌" : "👋"}{" "}
+    {todo && todo.completed ? "👌" : "👋"}
     <span
       className={cx(
         "todo-item__text",
